@@ -17,3 +17,4 @@ trainer = BackpropTrainer(net)
 trner, valerr = trainer.trainUntilConvergence(dataset=ds, maxEpochs=1000)
 plt.plot(trner, 'b', valerr, 'r')
 plt.show()
+# master
